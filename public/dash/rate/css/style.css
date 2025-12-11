@@ -1,0 +1,380 @@
+body{
+    background-color: black;
+}
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+html {
+    height: -webkit-fill-available;
+}
+.header-logo{
+    display: flex;
+    position: absolute;
+    /* left: 4%;
+    top: 40px; */
+    left: 11px;
+    top: 16px;
+}
+.buy-coffee-main{
+    background-color: #ffffff;
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: 70px auto 70px;
+    border-radius: 16px;
+    position: relative;
+}
+.buy-coffee-main.coffee-new-layout {
+    height: calc(100vh - 140px);
+}
+.buy-coffee-main.coffee-new-layout .row{
+    height: 100%;
+}
+.buy-coffee-main.coffee-new-layout .row .col-md-12, .buy-coffee-main.coffee-new-layout .row .col-lg-6{
+    height: 100%;
+}
+.buy-coffee-main.coffee-new-layout .row .col-md-12:last-child, .buy-coffee-main.coffee-new-layout .row .col-lg-6:last-child{
+    height: auto;
+}
+.coffee-video{
+    width: 100%;
+    height: 100%;
+    /* height: 585px; */
+    border-radius: 16px;
+    padding: 0 21px;
+    /* overflow: hidden; */
+    position: relative;
+}
+.coffee-video a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.coffee-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.coffee-text{
+    padding: 0 0 0 40px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15px;
+    color: #E8E8E8;
+}
+.coffee-text h1{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.coffee-text h6{
+    color: #3F3F42;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 45px 0;
+}
+.coffee-amount{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+.coffee-amount p{
+    margin-bottom: 0;
+}
+.dollar-price input{
+    width: 65px;
+    height: 45px;
+    background: #fff;
+    border-radius: 14px;
+    border: none;
+    padding: 14px 14px 14px 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #262626;
+    border: 1px solid #D9D9D9;
+}
+.dollar-price input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .dollar-price input::-moz-placeholder { /* Firefox 19+ */
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .dollar-price input:-ms-input-placeholder { /* IE 10+ */
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .dollar-price input:-moz-placeholder { /* Firefox 18- */
+    color: #262626;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.coffee-amount svg{
+    margin: 0 7px;
+}
+.dollar-price span{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+    color: #262626;
+}
+.btn-default{
+    background: #262626;
+    color: #ffffff;
+    border: 1px solid #202123;
+    box-shadow: 0px 0px 10px rgba(38, 38, 38, 0.04);
+    border-radius: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    max-width: 284px;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.btn-default:hover{
+    color: #1F1F1F;
+    background-color: transparent;
+    border: 1px solid #1F1F1F;
+}
+form span{
+    display: block;
+    color: #9E9E9E;
+    font-size: 14px;
+}
+.after-submit{
+    margin: 45px 0;
+    font-size: 12px;
+    color: #9E9E9E;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.after-submit span{
+    background-color: #202123;
+}
+.after-submit:after{
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2F2F30;
+    z-index: -1;
+}
+
+.buy-coffee-main:after {
+    display: none;
+    content: '';
+    height: 100%;
+    width: 96%;
+    background: #ffffff;
+    top: 1%;
+    position: absolute;
+    right: 2%;
+    border-radius: 14px;
+    z-index: -1;
+    box-shadow: 0px 40px 30px -30px rgba(0, 0, 0, 0.2);
+}
+
+/* .buy-coffee-main{
+    box-shadow: 0px 20px 30px -18px rgba(0, 0, 0, 0.25);
+    position: relative;
+} */
+body{
+    background-color: #ffffff;
+}
+
+.vidwork-dd{
+    width: 272px;
+    margin: 15px auto 5px;
+    font-family: 'Nunito';
+
+}
+.vidwork-dd .btn-group{
+    width: 100%;
+    position: relative;
+}
+.vidwork-dd .btn-group .dropdown-toggle{
+    background-color: white;
+    color: #262626;
+    border: none;
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    text-align: left;
+}
+.vidwork-dd .btn-group .dropdown-toggle:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.vidwork-dd .btn-group .dropdown-toggle::after{
+    width: 9px;
+    height: 14px;
+    border: none;
+    background-image: url(../../../assets/images/arrow-right.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 5px;
+}
+.vidwork-dd .btn-group .dropdown-toggle.show::after{
+    background-image: url(../../../assets/images/arrow-up.svg);
+    width: 14px;
+    height: 8px;
+}
+.vidwork-dd .btn-group .dropdown-menu.show{
+    width: 316px;
+    left: 50% !important;
+    transform: translate3d(-50%, -36.8px, 0px) !important;
+    padding: 30px 20px 10px ;
+    font-size: 15px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    border: none;
+    border-radius: 12px;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+}
+.vidwork-dd .btn-group .dropdown-menu.show li{
+    margin-bottom: 10px;
+}
+
+.footer-logo{
+    position: fixed;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-logo img{
+    max-width: 100px;
+}
+/* responsive */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .coffee-video {
+        /* height: 470px; */
+        height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .coffee-text {
+        padding: 0 0 0 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .coffee-text h1 {
+        font-size: 28px;
+    }
+    .coffee-video {
+        /* height: 470px; */
+        height: 330px;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .coffee-text {
+        padding: 0 0 0 0;
+    }
+    .buy-coffee-main.coffee-new-layout .row .col-md-12, .buy-coffee-main.coffee-new-layout .row .col-lg-6 {
+        height: auto;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .coffee-text{
+        margin-top: 50px;
+    }
+    .coffee-text h1 {
+        font-size: 35px;
+    }
+    .coffee-text {
+        padding: 0 0 0 0;
+    }
+}
+@media screen and (max-width: 576px){
+    .buy-coffee-main {
+        padding: 25px 0;
+        max-width: 375px;
+        margin: 20px auto 20px;
+    }
+    .coffee-video {
+        width: 100%;
+        max-width: 173px;
+        margin: 50px auto 0;
+        height: 259px;
+        padding: 0 0;
+        position: relative;
+        /* height: 47%; */
+    }
+    .coffee-video p:first-child{
+        position: absolute;
+        top: -40px;
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .buy-coffee-main.coffee-new-layout .row .col-md-12, .buy-coffee-main.coffee-new-layout .row .col-lg-6 {
+        height: auto;
+    }
+    .coffee-text{
+        margin-top: 30px;
+        padding: 0 15px 0;
+        height: calc(100vh - 420px);
+    }
+    .coffee-text p.mb-4{
+        margin-bottom: 1rem !important;
+    }
+    .coffee-text h1 {
+        font-size: 27px;
+    }
+    .coffee-text:last-child{
+        font-size: 12px;
+    }
+    .coffee-text h6 {
+        margin: 30px 0;
+    }
+    .coffee-amount {
+        margin: 30px 0 30px 0;
+    }
+    .header-logo {
+        left: 20px;
+        top: 25px;
+    }
+    .coffee-new-layout .coffee-text p:nth-child(2){
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .buy-coffee-main.coffee-new-layout{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+        height: calc(100vh);
+        margin: 0 auto 0;
+        box-shadow: none;
+    }
+    .buy-coffee-main.coffee-new-layout .row.align-items-center{
+        align-content: center;
+    }
+    .vidwork-dd{
+        margin: 10px auto 5px;
+    }
+}
+
